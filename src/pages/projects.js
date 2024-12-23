@@ -4,7 +4,10 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/project-1.png";
+import project2 from "../../public/images/projects/project-2.png";
+import project3 from "../../public/images/projects/project-3.png";
+import project4 from "../../public/images/projects/project-4.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -128,65 +131,40 @@ function projects() {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
+                title="Dynamic Stock Dashboard"
                 img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                link="/"
+                summary="Created a dynamic stock dashboard featuring candlestick charts using Recharts, styled with Tailwind CSS, and powered by mock data from a JavaScript file."
+                link="https://dj-stock-dashboard.netlify.app/"
                 type="Featured Project"
-                github="/"
+                github="https://github.com/DivasJaglan/Dynamic-Stock-Dashboard"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                type="Featured Project"
-                github="/"
+                title="Login Dashboard"
+                img={project2}
+                link="https://dj-react-task-6.netlify.app"
+                type="Project"
+                github="https://github.com/DivasJaglan/KGISL-React-Task-6"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              {" "}
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                type="Featured Project"
+                title="Hotel Landing Page"
+                img={project3}
+                link="https://dj-product-landing-page.netlify.app/"
+                type="Project"
                 github="/"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                link="/"
+                title="User Management App"
+                img={project4}
+                summary="Built a feature-rich user management system with React and Bootstrap, integrated with a dummy JSON API to add, edit, and delete user records."
+                link="https://dj-user-management.netlify.app/"
                 type="Featured Project"
-                github="/"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              {" "}
-              <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                type="Featured Project"
-                github="/"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              {" "}
-              <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                type="Featured Project"
-                github="/"
+                github="https://github.com/DivasJaglan/KGISL-React-Task-8/tree/main"
               />
             </div>
           </div>

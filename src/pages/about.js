@@ -53,25 +53,29 @@ function about() {
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 Biography
               </h2>
+
               <p className="font-medium">
-                Hi, I'm CodeBucks, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients' visions to life.
+                Hi, I am Divas Jaglan, a Frontend Developer with a strong
+                foundation in HTML, CSS, JavaScript, and React.js. With hands-on
+                experience building responsive and user-friendly web
+                applications, I am passionate about delivering visually
+                appealing and efficient digital solutions.
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty – it's about solving problems and creating intuitive,
-                enjoyable experiences for users.{" "}
+                I specialize in crafting user interfaces that are not just
+                aesthetically pleasing but also intuitive and functional. My
+                approach to design and development focuses on problem-solving
+                and creating seamless user experiences.
               </p>
               <p className="font-medium">
-                {" "}
-                Whether I am working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                With experience collaborating in Agile teams and independently
+                completing projects, I have developed key skills in
+                responsiveness, performance optimization, and user-centered
+                design. My portfolio showcases a range of projects, from
+                feature-rich dashboards to elegant landing pages, reflecting my
+                versatility and commitment to excellence. I look forward to
+                bringing creativity and technical expertise to your next
+                project.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light/75 xl:col-span-4 md:order-1 md:col-span-8">
@@ -84,18 +88,18 @@ function about() {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
-            <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
-              <div className="flex flex-col items-end justify-center xl:items-center">
+            <div className="col-span-2 flex flex-col items-end justify-center gap-6 xl:col-span-8 xl:flex-row xl:items-center md:order-3">
+              {/* <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-6xl font-bold md:text-5xl sm:text-4xl xs:text-3xl">
                   <AnimatedNumbers value={50} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Satisfied clients
                 </h2>
-              </div>
+              </div> */}
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-6xl font-bold md:text-5xl sm:text-4xl xs:text-3xl">
-                  <AnimatedNumbers value={40} />+
+                  <AnimatedNumbers value={20} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Projects completed
@@ -103,7 +107,7 @@ function about() {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-6xl font-bold md:text-5xl sm:text-4xl xs:text-3xl">
-                  <AnimatedNumbers value={2} />+
+                  <AnimatedNumbers value={1} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   years of experience
